@@ -1,0 +1,22 @@
+{% extends "base.peb" %}
+{% block title %}Public Index{% endblock %}
+
+{% block pagestyle %}
+<style src="text/css">
+  body {
+    text-align: center;
+  }
+</style>
+{% endblock %}
+
+{% block pagejs %}
+{% endblock %}
+
+{% block content %}
+<h1>Public index</h1>
+<br/>
+<a href="protected/main">Access protected contents</a>
+<p>
+    <br/>
+    <br/>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.peb" %}
+{% block title %}Protected Area{% endblock %}
+
+{% block pagestyle %}
+<style src="text/css">
+  body {
+    text-align: center;
+  }
+</style>
+{% endblock %}
+
+{% block pagejs %}
+{% endblock %}
+
+{% block content %}
+<h1>Protected Area</h1>
+<br/>
+<p>Logged as {{ context.get("email") }}</p>
+<br/>
+<a href="/logout">Leave protected area</a>
+<p>
+    <br/>
+    <br/>
+{% endblock %}

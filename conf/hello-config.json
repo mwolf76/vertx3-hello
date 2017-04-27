@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": 8080,
+    "useSSL": true,
+    "keystoreFilename": "server-keystore.jks",
+    "keystorePassword": "wibble"
+  },
+  "oauth2": {
+    "provider": "google",
+    "domain": "<YOUR DOMAIN HERE>",
+    "clientID": "<YOUR CLIENT ID HERE>",
+    "clientSecret": "<YOUR CLIENT SECRET HERE>"
+  }
+}
+

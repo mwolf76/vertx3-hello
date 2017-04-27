@@ -1,0 +1,33 @@
+<style type="text/css">
+    .ul {
+      padding: 12px;
+      font-size: 1.4em;
+    }
+
+    @media screen and (max-width: 500px) {
+    /* applies only if the screen is narrower than 500px */
+      .ul {
+        padding: 12px;
+        font-size: 4em;
+      }
+    }
+
+    #logo {
+       background-image: url("/static/img/black-cat.svg");
+       height: 70px;
+       width: 70px;
+       background-repeat: no-repeat;
+       display: inline-block;
+    }
+
+    #main {
+      margin-left: 8px;
+    }
+
+    #footer span {
+      position: relative;
+      top: -17px;
+      font-family: 'Allerta Stencil';
+      font-size: 14px;
+    }
+</style>
